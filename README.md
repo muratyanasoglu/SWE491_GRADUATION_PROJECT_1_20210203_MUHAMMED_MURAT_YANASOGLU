@@ -21,6 +21,7 @@ This project is a web-based application designed to manage office hour reservati
 
 The project is organized into two main directories: `academician_website` and `student_office_hour_reservation`.
 
+```
 SWE491_GRADUATION_PROJECT_1_20210203_MUHAMMED_MURAT_YANASOGLU
 ├── academician_website
 │ ├── uploads (Directory for storing uploaded files)
@@ -75,6 +76,7 @@ SWE491_GRADUATION_PROJECT_1_20210203_MUHAMMED_MURAT_YANASOGLU
 ├── student_pending_reservations.php (Page to view pending reservations)
 ├── submit_reservation.php (Script to submit reservation requests)
 └── view_timetable.php (Page to view specific timetable)
+```
 
 ## Installation
 
