@@ -89,7 +89,7 @@ Navigate to the project directory:
 
 Install dependencies using Composer:
 
-composer install
+```composer install```
 
     Set up your database:
         Create the databases form_db and students_database.
