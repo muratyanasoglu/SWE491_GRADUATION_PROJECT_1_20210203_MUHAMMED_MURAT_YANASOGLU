@@ -1,0 +1,199 @@
+
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background_img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    padding: 20px;
+}
+body::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.navbar a.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin-right: 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.navbar ul li a.logout-btn {
+    background-color: #FF0000;
+}
+.navbar ul li a.reservations-btn {
+    background-color: #FF0000;
+}
+.navbar ul li a.pending-reservations-btn {
+    background-color: #FF0000;
+}
+.navbar ul li a.timetable-btn {
+    background-color: #FF0000;
+}
+.navbar ul li a.profile-btn {
+    background-color: #FF0000;
+}
+.navbar ul li a.settings-btn {
+    background-color: #FF0000;
+}
+
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+/* Akademik seçeneklerin stil ayarları */
+.academic-options {
+    margin-bottom: 20px;
+}
+
+.academic-options select {
+    width: 200px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Timetable tablosu */
+#timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#timetable th,
+#timetable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Saat ve gün başlıklarının stil ayarları */
+#timetable th:first-child,
+#timetable td:first-child {
+    background-color: #f44336;
+    color: white;
+}
+
+#timetable th:first-child {
+    background-color: #64b5f6;
+}
+
+#timetable tr:first-child th {
+    background-color: #ff9800;
+}
+
+/* Modal pop-up stil ayarları */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.button-container button:hover {
+    background-color: #d32f2f;
+}
+
+/* Hücrelere göre renk atamaları */
+.soh-cell {
+    background-color: #8bc34a;
+}
+
+.aoh-cell {
+    background-color: #ffc107;
+}
+
+.lecture-cell {
+    background-color: #ff5722;
+}
+
+
