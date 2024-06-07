@@ -98,7 +98,7 @@ composer install
     Configure your server:
         Place the project directory within the root of your web server (e.g., htdocs for XAMPP).
 
-##Configuration
+## Configuration
 Database Configuration
 
 Ensure that the database connection settings are correct in the following files:
@@ -112,7 +112,7 @@ Directory Permissions
 
 Ensure that the uploads directories in both academician_website and student_office_hour_reservation are writable by the web server.
 
-##Usage
+## Usage
 
 Academician Website
 
@@ -140,6 +140,6 @@ Student Website
     Login (index.php): Login page for students.
     Forgot Password (forgot_password.php): Recover student account password.
 
-##Contact
+## Contact
 
 For any inquiries, please contact [akademiyanasoglu@gmail.com],[20210203@std.neu.edu.tr]
